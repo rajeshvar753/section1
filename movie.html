@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket</title>
+
+</head>
+<body>
+    <h1>BookmyShow</h1>
+    <br>
+    <img src="https://m.media-amazon.com/images/I/71WCHcFxA8L._AC_UF894,1000_QL80_.jpg" width="150px">
+
+    <form>
+        <label for="">Moive Id</label>
+        <input type="text">
+
+        <br><br>
+
+        <label for="">NO. OF Tickets</label>
+        <input type="number">
+
+        <br><br>
+
+        <label for="">Seat Type</label>
+        <input type="text" list="seat">
+
+        <datalist id="seat">
+            <option>VIP seat</option>
+            <option>Balcony</option>
+            <option>Recliner</option>
+        </datalist>
+
+        <br><br>
+
+        <label for="">Date of birth</label>
+        <input type="date">
+        
+        <br><br>
+
+        <label for="">Seat No.</label>
+        <input type="number">
+
+        <br><br>
+
+        <label for="">Timing</label>
+        <input type="time" list="time">
+
+        <datalist id="time">
+            <option>10am</option>
+            <option>11:30am</option>
+            <option>2pm</option>
+            <option>8pm</option>
+        </datalist>
+
+        <br><br>
+
+        <label for="">Total Price</label>
+        <input type="number">
+
+        <br><br>
+
+        <button>Book</button>
+
+        <button>Reset</button>
+
+
+    </form>
+</body>
+</html>
